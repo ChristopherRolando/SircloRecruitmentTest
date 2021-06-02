@@ -3,7 +3,7 @@ import "./CarouselGenre.css";
 function CarouselGenre({genre,image}) {
   return (
     <div>
-      <img className="imageGenre" src={image} />
+      <img className="imageGenre" src={image} alt=""/>
       <div className="centered"><h2>{genre}</h2></div>
     </div>
   );

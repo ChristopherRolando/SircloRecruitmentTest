@@ -5,7 +5,6 @@ import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
-import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
 import SongName from "./SongName";
 import CarouselGenre from "./CarouselGenre";
 import CarouselAlbum from "./CarouselAlbum";
@@ -35,8 +34,8 @@ function Body() {
       <div>
         <div className="background">
           <div className="streams">
-            <img className="stream" src="img/album-songs.jpg"></img>
-            <img className="border"src="img/animated-eq.gif"></img>
+            <img className="stream" src="img/album-songs.jpg" alt=""></img>
+            <img className="border"src="img/animated-eq.gif" alt=""></img>
             <div className="textSong">
               <SongName text="All I want" description="by Kodaline" />
             </div>
