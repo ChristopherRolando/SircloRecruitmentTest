@@ -1,0 +1,18 @@
+.white {
+    color:white;
+}
+.borderFav {
+    border: solid 1px gray;
+    border-radius:50%;
+    padding:10px;
+    font-size:1.5rem!important;
+    cursor:pointer;
+}
+.borderFav:hover {
+    border: solid 1px white;
+}
+.borderSkip {
+    padding:10px;
+    font-size: 2rem !important;
+    cursor:pointer;
+}

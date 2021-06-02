@@ -1,0 +1,31 @@
+.images {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    width: 25%;
+    opacity: 0;
+    transition: .5s ease;
+  }
+  .container {
+    position: relative;
+    cursor:pointer;
+  }
+  .container:hover .overlay {
+    opacity: 0.9;
+  }
+  .wrapIconImage {
+      display:inline-flex;
+      position:absolute;
+      top:100%;
+  }
+  .description{
+      color:gray
+  }
